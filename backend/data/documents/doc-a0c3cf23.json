@@ -1,0 +1,50 @@
+{
+  "docId": "doc-a0c3cf23",
+  "fileName": "freelance_contract_v1_favorable.txt",
+  "filePath": "D:\\Dev\\Virtualprompt\\backend\\data\\uploads\\doc-a0c3cf23_freelance_contract_v1_favorable.txt",
+  "mimeType": "text/plain",
+  "rawText": "FREELANCE CONSULTING AGREEMENT (STANDARD / FAVORABLE)\n\nThis Freelance Consulting Agreement is entered into as of January 10, 2025, between TechVentures Ltd (\"Client\") and DevStudio (\"Contractor\").\n\n1. PAYMENT TERMS\nClient shall pay Contractor within Net 15 days of invoice submission. Overdue balances shall accrue interest at the rate of 1.5% per month until settled in full.\n\n2. INTELLECTUAL PROPERTY TRANSFER\nAll rights, title, and intellectual property in the Deliverables shall transfer and assign to Client only upon complete receipt of full payment of all undisputed fees by Contractor.\n\n3. TERMINATION FOR CONVENIENCE\nEither party may terminate this Agreement at any time by providing thirty (30) days prior written notice. Upon termination, Client shall promptly compensate Contractor for all hours worked and milestones achieved through the termination date.\n\n4. LIMITATION OF LIABILITY\nContractor's aggregate liability arising out of or related to this Agreement shall be strictly capped at the total amount of fees actually paid by Client to Contractor under this Agreement. In no event shall Contractor be liable for indirect or consequential damages.\n\n5. NON-COMPETE RESTRICTIONS\nContractor is an independent contractor and retains the unrestricted freedom to provide software engineering and consulting services to any other clients, competitors, or third parties concurrently or subsequently.\n\n6. DISPUTE RESOLUTION AND JURISDICTION\nAny dispute arising out of this Agreement shall be resolved through binding arbitration in Bengaluru, Karnataka, under the Indian Arbitration and Conciliation Act, 1996, with each party bearing its own legal fees.\n",
+  "clauses": [
+    {
+      "id": "clause-1",
+      "text": "Each receiving party's obligations to safeguard and refrain from disclosing Confidential Information shall commence upon receipt and expire exactly two (2) years after the date of disclosure.",
+      "category": "confidentiality",
+      "plainLanguage": "Confidentiality duties last for two years from when the information was disclosed.",
+      "riskLevel": "low",
+      "riskReason": "Standard confidentiality term with a defined two-year expiration period.",
+      "conflictsWith": [
+        "clause-3"
+      ]
+    },
+    {
+      "id": "clause-2",
+      "text": "Contractor agrees to defend, indemnify, and hold Company harmless against any and all claims, demands, liabilities, costs, or damages arising out of any work product, independent of whether actual infringement or negligence occurred.",
+      "category": "indemnity",
+      "plainLanguage": "The contractor must cover all company damages related to work product regardless of fault.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review under Section 125, Indian Contract Act, 1872 because imposing strict indemnification regardless of the counterparty's own negligence expands liability beyond statutory indemnity boundaries.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-3",
+      "text": "Notwithstanding any other provision herein, Recipient's non-disclosure obligations with respect to Proprietary Information shall survive termination in perpetuity and shall never expire under any circumstance.",
+      "category": "confidentiality",
+      "plainLanguage": "Confidentiality duties for proprietary information continue forever and never expire.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review because perpetual confidentiality obligations create indefinite ongoing compliance liability.",
+      "conflictsWith": [
+        "clause-1"
+      ]
+    },
+    {
+      "id": "clause-4",
+      "text": "This Agreement shall be governed by English Law and settled by binding arbitration in London, England, with the non-prevailing party paying 100% of legal costs.",
+      "category": "arbitration",
+      "plainLanguage": "Disputes must be arbitrated in London under English law, with the loser paying all legal fees.",
+      "riskLevel": "medium",
+      "riskReason": "may warrant review because foreign arbitration venue and loser-pays fee shifting can significantly increase dispute expenses.",
+      "conflictsWith": []
+    }
+  ],
+  "createdAt": "2026-09-19T19:10:23.810678+00:00"
+}

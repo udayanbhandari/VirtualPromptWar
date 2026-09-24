@@ -1,0 +1,28 @@
+{
+  "docId": "test-doc-missing-a",
+  "fileName": "doc_a.txt",
+  "filePath": null,
+  "mimeType": "application/pdf",
+  "rawText": "Payment shall be Net 15 days. Disputes resolved by arbitration in Bengaluru.",
+  "clauses": [
+    {
+      "id": "c1",
+      "text": "Payment shall be Net 15 days.",
+      "category": "payment",
+      "plainLanguage": "Pay within 15 days.",
+      "riskLevel": "low",
+      "riskReason": "",
+      "conflictsWith": []
+    },
+    {
+      "id": "c2",
+      "text": "Disputes resolved by arbitration in Bengaluru.",
+      "category": "arbitration",
+      "plainLanguage": "Arbitrate locally.",
+      "riskLevel": "low",
+      "riskReason": "",
+      "conflictsWith": []
+    }
+  ],
+  "createdAt": "2026-09-19T19:54:05.959375+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "docId": "doc-df84c50f",
+  "fileName": "freelance_nda.pdf",
+  "filePath": "D:\\Dev\\Virtualprompt\\backend\\data\\uploads\\doc-df84c50f_freelance_nda.pdf",
+  "mimeType": "application/pdf",
+  "rawText": "MUTUAL NON-DISCLOSURE AND PROPRIETARY INFORMATION AGREEMENT\n\nThis Mutual Non-Disclosure Agreement (\"Agreement\") is executed as of March 10, 2025, between Apex Digital Solutions Inc. (\"Company\") and Alex Rivera (\"Contractor\").\n\n1. PURPOSE\nCompany and Contractor intend to engage in discussions regarding freelance full-stack engineering and machine learning consulting services (\"Permitted Purpose\").\n\n2. CONFIDENTIAL INFORMATION DEFINITION\n\"Confidential Information\" encompasses all technical, business, financial, software architecture, client lists, and algorithmic data disclosed by either party, whether in oral, written, or electronic form.\n\n3. TERM OF CONFIDENTIALITY OBLIGATIONS\n3.1. Each receiving party's obligations to safeguard and refrain from disclosing Confidential Information shall commence upon receipt and expire exactly two (2) years after the date of disclosure or upon mutual termination of this Agreement, whichever occurs first.\n\n4. PERMITTED DISCLOSURE\nA receiving party may disclose Confidential Information solely to its employees, subcontractors, or professional legal advisors who have an absolute need to know for the Permitted Purpose and who are bound by non-disclosure terms no less restrictive than this Agreement.\n\n5. INTELLECTUAL PROPERTY & INDEMNIFICATION\n5.1. Contractor agrees to defend, indemnify, and hold Company harmless against any and all claims, demands, liabilities, costs, or damages including attorney fees arising directly or indirectly out of any work product, independent of whether actual infringement, willful misconduct, or negligence occurred.\n\n6. SURVIVAL AND PERPETUAL NON-DISCLOSURE\n6.1. Notwithstanding any other provision herein, Recipient's non-disclosure obligations and prohibitions against use of any Proprietary Information, source code, trade secrets, or client workflows shall survive termination of this Agreement in perpetuity and shall never expire under any circumstance until such information enters the public domain without fault of Recipient.\n\n7. GOVERNING LAW AND ARBITRATION\n7.1. This Agreement shall be governed by English Law. Any controversy, claim, or breach shall be settled by binding arbitration in London, England. Contractor waives any objection based on inconvenient forum, and the non-prevailing party shall pay 100% of the prevailing party's legal costs.\n",
+  "clauses": [
+    {
+      "id": "clause-1",
+      "text": "Each receiving party's obligations to safeguard and refrain from disclosing Confidential Information shall commence upon receipt and expire exactly two (2) years after the date of disclosure.",
+      "category": "confidentiality",
+      "plainLanguage": "Confidentiality duties last for two years from when the information was disclosed.",
+      "riskLevel": "low",
+      "riskReason": "Standard confidentiality term with a defined two-year expiration period.",
+      "conflictsWith": [
+        "clause-3"
+      ]
+    },
+    {
+      "id": "clause-2",
+      "text": "Contractor agrees to defend, indemnify, and hold Company harmless against any and all claims, demands, liabilities, costs, or damages arising out of any work product, independent of whether actual infringement or negligence occurred.",
+      "category": "indemnity",
+      "plainLanguage": "The contractor must cover all company damages related to work product regardless of fault.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review under Section 125, Indian Contract Act, 1872 because imposing strict indemnification regardless of the counterparty's own negligence expands liability beyond statutory indemnity boundaries.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-3",
+      "text": "Notwithstanding any other provision herein, Recipient's non-disclosure obligations with respect to Proprietary Information shall survive termination in perpetuity and shall never expire under any circumstance.",
+      "category": "confidentiality",
+      "plainLanguage": "Confidentiality duties for proprietary information continue forever and never expire.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review because perpetual confidentiality obligations create indefinite ongoing compliance liability.",
+      "conflictsWith": [
+        "clause-1"
+      ]
+    },
+    {
+      "id": "clause-4",
+      "text": "This Agreement shall be governed by English Law and settled by binding arbitration in London, England, with the non-prevailing party paying 100% of legal costs.",
+      "category": "arbitration",
+      "plainLanguage": "Disputes must be arbitrated in London under English law, with the loser paying all legal fees.",
+      "riskLevel": "medium",
+      "riskReason": "may warrant review because foreign arbitration venue and loser-pays fee shifting can significantly increase dispute expenses.",
+      "conflictsWith": []
+    }
+  ],
+  "createdAt": "2026-09-19T19:23:25.768573+00:00"
+}

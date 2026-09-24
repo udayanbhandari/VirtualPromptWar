@@ -1,0 +1,64 @@
+{
+  "docId": "doc-3ae293ed",
+  "fileName": "freelance_contract_v2_worse.txt",
+  "filePath": "D:\\Dev\\Virtualprompt\\backend\\data\\uploads\\doc-3ae293ed_freelance_contract_v2_worse.txt",
+  "mimeType": "text/plain",
+  "rawText": "FREELANCE CONSULTING AGREEMENT (RESTRICTIVE / ADVERSE)\n\nThis Freelance Consulting Agreement is entered into as of January 10, 2025, between TechVentures Ltd (\"Client\") and DevStudio (\"Contractor\").\n\n1. PAYMENT TERMS\nClient shall pay Contractor within Net 60 days of invoice receipt. Client reserves the unilateral right to withhold or deduct payment for any deliverable deemed subjectively unsatisfactory, with zero late payment interest.\n\n2. INTELLECTUAL PROPERTY TRANSFER\nAll rights, title, source code, and intellectual property shall irrevocably vest in Client immediately upon creation, irrespective of whether Client has paid the applicable fees or invoices.\n\n3. UNILATERAL TERMINATION WITHOUT NOTICE\nClient may terminate this Agreement immediately at any time without notice, cause, or cure period. In the event of early termination, Client shall have no obligation to pay for in-progress milestones or unapproved work product.\n\n4. UNLIMITED LIABILITY AND STRICT INDEMNITY\nContractor's liability under this Agreement is completely uncapped. Contractor agrees to indemnify, defend, and hold Client harmless against any and all claims, losses, or legal costs arising directly or indirectly from the services, regardless of Client negligence.\n\n5. POST-TERMINATION NON-COMPETE COVENANT\nFor a period of twenty-four (24) months following termination of this Agreement, Contractor is strictly prohibited worldwide from providing software consulting services to any entity in the technology sector that competes with Client.\n\n6. DISPUTE RESOLUTION AND FOREIGN VENUE\nAny dispute shall be submitted to mandatory binding arbitration in London, United Kingdom, governed by English law. Contractor waives all rights to participate in local forums and must pay all upfront filing fees.\n",
+  "clauses": [
+    {
+      "id": "clause-1",
+      "text": "Client shall pay Contractor within Net 60 days of invoice receipt. Client reserves the unilateral right to withhold or deduct payment for any deliverable deemed subjectively unsatisfactory, with zero late payment interest.",
+      "category": "payment",
+      "plainLanguage": "The client can take 60 days to pay and can unilaterally withhold payment if subjectively dissatisfied.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review because Net 60 terms and unilateral subjective withholding create substantial non-payment risk.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-2",
+      "text": "All rights, title, source code, and intellectual property shall irrevocably vest in Client immediately upon creation, irrespective of whether Client has paid the applicable fees or invoices.",
+      "category": "other",
+      "plainLanguage": "The client owns all work immediately upon creation, even if they never pay the contractor.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review because assigning intellectual property prior to fee payment deprives the contractor of critical payment leverage.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-3",
+      "text": "Client may terminate this Agreement immediately at any time without notice, cause, or cure period. In the event of early termination, Client shall have no obligation to pay for in-progress milestones or unapproved work product.",
+      "category": "termination",
+      "plainLanguage": "The client can fire the contractor immediately without notice and refuse to pay for unfinished milestones.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review under Section 39, Indian Contract Act, 1872 because unilateral termination without reasonable cause or notice may constitute an unfair contractual term or wrongful repudiation.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-4",
+      "text": "Contractor's liability under this Agreement is completely uncapped. Contractor agrees to indemnify, defend, and hold Client harmless against any and all claims, losses, or legal costs arising directly or indirectly from the services, regardless of Client negligence.",
+      "category": "liability",
+      "plainLanguage": "The contractor faces unlimited liability and must indemnify the client even if the client was negligent.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review under Section 124, Indian Contract Act, 1872 because imposing strict indemnification regardless of the counterparty's own negligence expands liability beyond statutory indemnity boundaries.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-5",
+      "text": "For a period of twenty-four (24) months following termination of this Agreement, Contractor is strictly prohibited worldwide from providing software consulting services to any entity in the technology sector that competes with Client.",
+      "category": "other",
+      "plainLanguage": "The contractor cannot work for any tech competitor worldwide for two years after the contract ends.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review under Section 39, Indian Contract Act, 1872 because unilateral termination without reasonable cause or notice may constitute an unfair contractual term or wrongful repudiation.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-6",
+      "text": "Any dispute shall be submitted to mandatory binding arbitration in London, United Kingdom, governed by English law. Contractor waives all rights to participate in local forums and must pay all upfront filing fees.",
+      "category": "arbitration",
+      "plainLanguage": "All disputes must be arbitrated in London under English law, and the contractor must pay all filing fees upfront.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review because mandatory London venue and foreign legal governance create prohibitive dispute enforcement hurdles.",
+      "conflictsWith": []
+    }
+  ],
+  "createdAt": "2026-09-19T19:23:25.933936+00:00"
+}

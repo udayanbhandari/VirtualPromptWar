@@ -1,0 +1,59 @@
+{
+  "docId": "doc-265846c2",
+  "fileName": "rental_agreement.pdf",
+  "filePath": "D:\\Dev\\Virtualprompt\\backend\\data\\uploads\\doc-265846c2_rental_agreement.pdf",
+  "mimeType": "application/pdf",
+  "rawText": "RESIDENTIAL LEASE AGREEMENT\n\nThis Residential Lease Agreement (the \"Agreement\") is entered into as of January 15, 2025, by and between Oakridge Properties LLC (\"Landlord\") and Jane Doe (\"Tenant\").\n\n1. PREMISES\nLandlord leases to Tenant the residential property located at 742 Evergreen Terrace, Unit 4B, Springfield (\"Premises\").\n\n2. TERM\nThe lease term commences on February 1, 2025, and concludes on January 31, 2026 (\"Initial Term\").\n\n3. RENT AND PAYMENT\n3.1. Tenant agrees to pay monthly rent in the amount of $2,400.00, payable on the first day of each calendar month.\n3.2. If rent is not received by the second day of the month, Tenant shall pay an immediate late fee of $150.00 plus a continuing charge of $25.00 for each calendar day the balance remains unpaid.\n\n4. EARLY TERMINATION BY TENANT\n4.1. Tenant shall have the express right to terminate this Agreement prior to expiration of the Initial Term by providing at least thirty (30) days prior written notice to Landlord and paying a lease break fee equal to one month's rent.\n\n5. SECURITY DEPOSIT\n5.1. Tenant has deposited $2,400.00 with Landlord as security for the faithful performance of Tenant's obligations hereunder.\n\n6. ACCESS AND INSPECTION\n6.1. Landlord and Landlord's agents may enter the Premises at any time without prior notice or consent to inspect the property, perform alterations, or exhibit the Premises to prospective purchasers.\n\n7. INDEMNIFICATION AND LIABILITY\n7.1. Tenant agrees to indemnify, defend, and hold harmless Landlord and its agents from and against all liabilities, claims, damages, expenses, and reasonable attorneys' fees arising from any occurrence within or about the Premises, regardless of whether caused by the negligence or fault of Landlord.\n\n8. DISPUTE RESOLUTION\n8.1. Any dispute arising out of or relating to this Lease shall be resolved exclusively through mandatory, binding arbitration conducted by a private arbitrator selected solely by Landlord, with Tenant waiving all rights to a jury trial and class action proceedings.\n\n9. FORFEITURE AND ABSOLUTE TERM COMMITMENT\n9.1. Neither party may terminate this Agreement prior to the complete expiration of the 12-month Initial Term for any reason whatsoever.\n9.2. Any attempt by Tenant to vacate or surrender the Premises prior to January 31, 2026, shall constitute an irremediable breach, resulting in automatic forfeiture of the entire Security Deposit and immediate acceleration of all unpaid rent through the end of the 12-month term.\n",
+  "clauses": [
+    {
+      "id": "clause-1",
+      "text": "Tenant agrees to pay monthly rent in the amount of $2,400.00, payable on the first day of each calendar month.",
+      "category": "payment",
+      "plainLanguage": "The tenant must pay $2,400 rent on the first day of each month.",
+      "riskLevel": "low",
+      "riskReason": "Standard payment provision with clear schedule and predictable amounts.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-2",
+      "text": "Tenant shall have the express right to terminate this Agreement prior to expiration of the Initial Term by providing at least thirty (30) days prior written notice to Landlord and paying a lease break fee equal to one month's rent.",
+      "category": "termination",
+      "plainLanguage": "The tenant can end the lease early by giving 30 days written notice and paying one month's rent as a break fee.",
+      "riskLevel": "medium",
+      "riskReason": "may warrant review under Section 39, Indian Contract Act, 1872 because unilateral termination without reasonable cause or notice may constitute an unfair contractual term or wrongful repudiation.",
+      "conflictsWith": [
+        "clause-5"
+      ]
+    },
+    {
+      "id": "clause-3",
+      "text": "Landlord and Landlord's agents may enter the Premises at any time without prior notice or consent to inspect the property, perform alterations, or exhibit the Premises.",
+      "category": "other",
+      "plainLanguage": "The landlord can enter the home whenever they want without giving any advance notice.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review because it allows unannounced entry by the landlord without standard 24-hour advance notice.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-4",
+      "text": "Tenant agrees to indemnify, defend, and hold harmless Landlord from and against all liabilities, claims, and expenses arising from any occurrence within the Premises, regardless of whether caused by the negligence of Landlord.",
+      "category": "indemnity",
+      "plainLanguage": "The tenant agrees to cover all landlord legal costs and damages, even if the landlord was negligent.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review under Section 124, Indian Contract Act, 1872 because imposing strict indemnification regardless of the counterparty's own negligence expands liability beyond statutory indemnity boundaries.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-5",
+      "text": "Neither party may terminate this Agreement prior to the complete expiration of the 12-month Initial Term for any reason whatsoever. Any attempt to vacate prior to term end forfeits the entire deposit and accelerates all unpaid rent.",
+      "category": "termination",
+      "plainLanguage": "The lease cannot be terminated early under any circumstance, and moving out early requires paying all remaining rent immediately.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review under Section 39, Indian Contract Act, 1872 because unilateral termination without reasonable cause or notice may constitute an unfair contractual term or wrongful repudiation.",
+      "conflictsWith": [
+        "clause-2"
+      ]
+    }
+  ],
+  "createdAt": "2026-09-19T19:54:05.841186+00:00"
+}

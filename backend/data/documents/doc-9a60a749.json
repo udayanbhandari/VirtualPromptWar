@@ -1,0 +1,64 @@
+{
+  "docId": "doc-9a60a749",
+  "fileName": "freelance_contract_v1_favorable.txt",
+  "filePath": "D:\\Dev\\Virtualprompt\\backend\\data\\uploads\\doc-9a60a749_freelance_contract_v1_favorable.txt",
+  "mimeType": "text/plain",
+  "rawText": "FREELANCE CONSULTING AGREEMENT (STANDARD / FAVORABLE)\n\nThis Freelance Consulting Agreement is entered into as of January 10, 2025, between TechVentures Ltd (\"Client\") and DevStudio (\"Contractor\").\n\n1. PAYMENT TERMS\nClient shall pay Contractor within Net 15 days of invoice submission. Overdue balances shall accrue interest at the rate of 1.5% per month until settled in full.\n\n2. INTELLECTUAL PROPERTY TRANSFER\nAll rights, title, and intellectual property in the Deliverables shall transfer and assign to Client only upon complete receipt of full payment of all undisputed fees by Contractor.\n\n3. TERMINATION FOR CONVENIENCE\nEither party may terminate this Agreement at any time by providing thirty (30) days prior written notice. Upon termination, Client shall promptly compensate Contractor for all hours worked and milestones achieved through the termination date.\n\n4. LIMITATION OF LIABILITY\nContractor's aggregate liability arising out of or related to this Agreement shall be strictly capped at the total amount of fees actually paid by Client to Contractor under this Agreement. In no event shall Contractor be liable for indirect or consequential damages.\n\n5. NON-COMPETE RESTRICTIONS\nContractor is an independent contractor and retains the unrestricted freedom to provide software engineering and consulting services to any other clients, competitors, or third parties concurrently or subsequently.\n\n6. DISPUTE RESOLUTION AND JURISDICTION\nAny dispute arising out of this Agreement shall be resolved through binding arbitration in Bengaluru, Karnataka, under the Indian Arbitration and Conciliation Act, 1996, with each party bearing its own legal fees.\n",
+  "clauses": [
+    {
+      "id": "clause-1",
+      "text": "Client shall pay Contractor within Net 15 days of invoice submission. Overdue balances shall accrue interest at the rate of 1.5% per month until settled in full.",
+      "category": "payment",
+      "plainLanguage": "The client must pay invoices within 15 days, with 1.5% monthly interest on late payments.",
+      "riskLevel": "low",
+      "riskReason": "Contractor-friendly payment terms with prompt 15-day turnaround and late payment protections.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-2",
+      "text": "All rights, title, and intellectual property in the Deliverables shall transfer and assign to Client only upon complete receipt of full payment of all undisputed fees by Contractor.",
+      "category": "other",
+      "plainLanguage": "Ownership of work only transfers to the client once the contractor is paid in full.",
+      "riskLevel": "low",
+      "riskReason": "Strong contractor protection tying intellectual property assignment directly to fee receipt.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-3",
+      "text": "Either party may terminate this Agreement at any time by providing thirty (30) days prior written notice. Upon termination, Client shall promptly compensate Contractor for all hours worked and milestones achieved through the termination date.",
+      "category": "termination",
+      "plainLanguage": "Either party can cancel with 30 days notice, and the client must pay for all completed work.",
+      "riskLevel": "low",
+      "riskReason": "Balanced bilateral termination clause with mandatory compensation for completed work.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-4",
+      "text": "Contractor's aggregate liability arising out of or related to this Agreement shall be strictly capped at the total amount of fees actually paid by Client to Contractor under this Agreement. In no event shall Contractor be liable for indirect or consequential damages.",
+      "category": "liability",
+      "plainLanguage": "The contractor's total liability is capped at the fees received, with no liability for indirect damages.",
+      "riskLevel": "low",
+      "riskReason": "Standard protective liability cap preventing outsized exposure beyond collected fees.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-5",
+      "text": "Contractor is an independent contractor and retains the unrestricted freedom to provide software engineering and consulting services to any other clients, competitors, or third parties concurrently or subsequently.",
+      "category": "other",
+      "plainLanguage": "The contractor is free to work for any other clients or competitors at any time.",
+      "riskLevel": "low",
+      "riskReason": "Preserves contractor trade and professional mobility without non-compete restraints.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-6",
+      "text": "Any dispute arising out of this Agreement shall be resolved through binding arbitration in Bengaluru, Karnataka, under the Indian Arbitration and Conciliation Act, 1996, with each party bearing its own legal fees.",
+      "category": "arbitration",
+      "plainLanguage": "Disputes are handled through local arbitration in Bengaluru with each party paying their own costs.",
+      "riskLevel": "low",
+      "riskReason": "Standard convenient dispute resolution in local jurisdiction.",
+      "conflictsWith": []
+    }
+  ],
+  "createdAt": "2026-09-19T19:15:03.759779+00:00"
+}

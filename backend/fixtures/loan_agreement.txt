@@ -1,0 +1,27 @@
+COMMERCIAL PROMISSORY NOTE AND LOAN AGREEMENT
+
+Principal Amount: $75,000.00 USD
+Date of Execution: April 5, 2025
+Borrower: BluePeak Logistics LLC ("Borrower")
+Lender: Silverline Capital Partners ("Lender")
+
+1. PRINCIPAL AND INTEREST RATE
+Borrower promises to pay to the order of Lender the principal sum of Seventy-Five Thousand Dollars ($75,000.00) together with interest on the unpaid principal balance at the fixed rate of 8.5% per annum.
+
+2. REPAYMENT SCHEDULE
+Monthly amortized payments of $1,540.00 shall be due and payable on the 15th calendar day of each month commencing May 15, 2025, continuing until full maturity on April 15, 2030.
+
+3. PREPAYMENT PRIVILEGE WITHOUT PENALTY
+Borrower retains the full and unrestricted right to prepay the outstanding principal balance in whole or in part at any time prior to the maturity date without penalty, surcharge, or advance notification requirement.
+
+4. DEFAULT AND ACCELERATION
+An Event of Default occurs if Borrower fails to pay any scheduled monthly instalment within ten (10) calendar days of its due date.
+
+5. DEFAULT RATE OF INTEREST
+Upon the occurrence of an Event of Default, the interest rate shall immediately increase to 34% per annum, calculated retroactively from the original Date of Execution on the entire original principal sum.
+
+6. MANDATORY PREPAYMENT PENALTY
+In the event that Borrower exercises any early payoff, refinancing, or principal reduction exceeding $5,000 in any single calendar quarter prior to maturity, Borrower shall pay an unavoidable liquidated prepayment penalty equal to 8.0% of the entire original principal loan amount ($6,000.00).
+
+7. WAIVER OF DEFENSES AND JURY TRIAL
+Borrower expressly waives presentment, demand for payment, notice of dishonor, notice of default, and any right to trial by jury in any legal action arising out of this Note.

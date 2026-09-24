@@ -1,0 +1,28 @@
+{
+  "docId": "doc-219e47e1",
+  "fileName": "EDI Research Paper Texta_Final.pdf",
+  "filePath": "D:\\Dev\\Virtualprompt\\backend\\data\\uploads\\doc-219e47e1_EDI Research Paper Texta_Final.pdf",
+  "mimeType": "application/pdf",
+  "rawText": "MUTUAL AGREEMENT (EDI Research Paper Texta_Final.pdf)\n\n1. TERM AND TERMINATION\n1.1. Either party may terminate this agreement upon thirty (30) days written notice.\n\n2. PAYMENT\n2.1. Invoices are payable within net 30 days of receipt.\n\n3. LIMITATION OF LIABILITY\n3.1. In no event shall either party's liability exceed the total contract price paid.",
+  "clauses": [
+    {
+      "id": "clause-1",
+      "text": "Either party may terminate this agreement upon thirty (30) days written notice to the other party.",
+      "category": "termination",
+      "plainLanguage": "Either side can cancel the agreement by giving a 30-day written notice.",
+      "riskLevel": "low",
+      "riskReason": "Standard mutual termination clause with reasonable notice duration.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-2",
+      "text": "In no event shall either party's aggregate liability exceed the total contract fees paid.",
+      "category": "liability",
+      "plainLanguage": "Neither party can be held liable for more than the total amount paid under the contract.",
+      "riskLevel": "medium",
+      "riskReason": "may warrant review because liability is limited to fees paid, which may be insufficient to cover operational damages.",
+      "conflictsWith": []
+    }
+  ],
+  "createdAt": "2026-09-24T15:05:03.471294+00:00"
+}

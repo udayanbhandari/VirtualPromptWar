@@ -1,0 +1,9 @@
+{
+  "docId": "test-no-clauses-doc",
+  "fileName": "no_clauses.txt",
+  "filePath": null,
+  "mimeType": "application/pdf",
+  "rawText": "This is a legal agreement between parties with terms and conditions.",
+  "clauses": [],
+  "createdAt": "2026-09-19T19:54:06.442601+00:00"
+}

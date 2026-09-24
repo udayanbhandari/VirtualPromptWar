@@ -1,0 +1,21 @@
+FREELANCE CONSULTING AGREEMENT (RESTRICTIVE / ADVERSE)
+
+This Freelance Consulting Agreement is entered into as of January 10, 2025, between TechVentures Ltd ("Client") and DevStudio ("Contractor").
+
+1. PAYMENT TERMS
+Client shall pay Contractor within Net 60 days of invoice receipt. Client reserves the unilateral right to withhold or deduct payment for any deliverable deemed subjectively unsatisfactory, with zero late payment interest.
+
+2. INTELLECTUAL PROPERTY TRANSFER
+All rights, title, source code, and intellectual property shall irrevocably vest in Client immediately upon creation, irrespective of whether Client has paid the applicable fees or invoices.
+
+3. UNILATERAL TERMINATION WITHOUT NOTICE
+Client may terminate this Agreement immediately at any time without notice, cause, or cure period. In the event of early termination, Client shall have no obligation to pay for in-progress milestones or unapproved work product.
+
+4. UNLIMITED LIABILITY AND STRICT INDEMNITY
+Contractor's liability under this Agreement is completely uncapped. Contractor agrees to indemnify, defend, and hold Client harmless against any and all claims, losses, or legal costs arising directly or indirectly from the services, regardless of Client negligence.
+
+5. POST-TERMINATION NON-COMPETE COVENANT
+For a period of twenty-four (24) months following termination of this Agreement, Contractor is strictly prohibited worldwide from providing software consulting services to any entity in the technology sector that competes with Client.
+
+6. DISPUTE RESOLUTION AND FOREIGN VENUE
+Any dispute shall be submitted to mandatory binding arbitration in London, United Kingdom, governed by English law. Contractor waives all rights to participate in local forums and must pay all upfront filing fees.

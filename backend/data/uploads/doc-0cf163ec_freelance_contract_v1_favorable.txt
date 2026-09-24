@@ -1,0 +1,21 @@
+FREELANCE CONSULTING AGREEMENT (STANDARD / FAVORABLE)
+
+This Freelance Consulting Agreement is entered into as of January 10, 2025, between TechVentures Ltd ("Client") and DevStudio ("Contractor").
+
+1. PAYMENT TERMS
+Client shall pay Contractor within Net 15 days of invoice submission. Overdue balances shall accrue interest at the rate of 1.5% per month until settled in full.
+
+2. INTELLECTUAL PROPERTY TRANSFER
+All rights, title, and intellectual property in the Deliverables shall transfer and assign to Client only upon complete receipt of full payment of all undisputed fees by Contractor.
+
+3. TERMINATION FOR CONVENIENCE
+Either party may terminate this Agreement at any time by providing thirty (30) days prior written notice. Upon termination, Client shall promptly compensate Contractor for all hours worked and milestones achieved through the termination date.
+
+4. LIMITATION OF LIABILITY
+Contractor's aggregate liability arising out of or related to this Agreement shall be strictly capped at the total amount of fees actually paid by Client to Contractor under this Agreement. In no event shall Contractor be liable for indirect or consequential damages.
+
+5. NON-COMPETE RESTRICTIONS
+Contractor is an independent contractor and retains the unrestricted freedom to provide software engineering and consulting services to any other clients, competitors, or third parties concurrently or subsequently.
+
+6. DISPUTE RESOLUTION AND JURISDICTION
+Any dispute arising out of this Agreement shall be resolved through binding arbitration in Bengaluru, Karnataka, under the Indian Arbitration and Conciliation Act, 1996, with each party bearing its own legal fees.

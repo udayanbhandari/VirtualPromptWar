@@ -1,0 +1,50 @@
+{
+  "docId": "doc-a04941d7",
+  "fileName": "loan_agreement.pdf",
+  "filePath": "D:\\Dev\\Virtualprompt\\backend\\data\\uploads\\doc-a04941d7_loan_agreement.pdf",
+  "mimeType": "application/pdf",
+  "rawText": "COMMERCIAL PROMISSORY NOTE AND LOAN AGREEMENT\n\nPrincipal Amount: $75,000.00 USD\nDate of Execution: April 5, 2025\nBorrower: BluePeak Logistics LLC (\"Borrower\")\nLender: Silverline Capital Partners (\"Lender\")\n\n1. PRINCIPAL AND INTEREST RATE\nBorrower promises to pay to the order of Lender the principal sum of Seventy-Five Thousand Dollars ($75,000.00) together with interest on the unpaid principal balance at the fixed rate of 8.5% per annum.\n\n2. REPAYMENT SCHEDULE\nMonthly amortized payments of $1,540.00 shall be due and payable on the 15th calendar day of each month commencing May 15, 2025, continuing until full maturity on April 15, 2030.\n\n3. PREPAYMENT PRIVILEGE WITHOUT PENALTY\nBorrower retains the full and unrestricted right to prepay the outstanding principal balance in whole or in part at any time prior to the maturity date without penalty, surcharge, or advance notification requirement.\n\n4. DEFAULT AND ACCELERATION\nAn Event of Default occurs if Borrower fails to pay any scheduled monthly instalment within ten (10) calendar days of its due date.\n\n5. DEFAULT RATE OF INTEREST\nUpon the occurrence of an Event of Default, the interest rate shall immediately increase to 34% per annum, calculated retroactively from the original Date of Execution on the entire original principal sum.\n\n6. MANDATORY PREPAYMENT PENALTY\nIn the event that Borrower exercises any early payoff, refinancing, or principal reduction exceeding $5,000 in any single calendar quarter prior to maturity, Borrower shall pay an unavoidable liquidated prepayment penalty equal to 8.0% of the entire original principal loan amount ($6,000.00).\n\n7. WAIVER OF DEFENSES AND JURY TRIAL\nBorrower expressly waives presentment, demand for payment, notice of dishonor, notice of default, and any right to trial by jury in any legal action arising out of this Note.\n",
+  "clauses": [
+    {
+      "id": "clause-1",
+      "text": "Each receiving party's obligations to safeguard and refrain from disclosing Confidential Information shall commence upon receipt and expire exactly two (2) years after the date of disclosure.",
+      "category": "confidentiality",
+      "plainLanguage": "Confidentiality duties last for two years from when the information was disclosed.",
+      "riskLevel": "low",
+      "riskReason": "Standard confidentiality term with a defined two-year expiration period.",
+      "conflictsWith": [
+        "clause-3"
+      ]
+    },
+    {
+      "id": "clause-2",
+      "text": "Contractor agrees to defend, indemnify, and hold Company harmless against any and all claims, demands, liabilities, costs, or damages arising out of any work product, independent of whether actual infringement or negligence occurred.",
+      "category": "indemnity",
+      "plainLanguage": "The contractor must cover all company damages related to work product regardless of fault.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review because it imposes strict indemnification on the contractor without requiring fault or negligence.",
+      "conflictsWith": []
+    },
+    {
+      "id": "clause-3",
+      "text": "Notwithstanding any other provision herein, Recipient's non-disclosure obligations with respect to Proprietary Information shall survive termination in perpetuity and shall never expire under any circumstance.",
+      "category": "confidentiality",
+      "plainLanguage": "Confidentiality duties for proprietary information continue forever and never expire.",
+      "riskLevel": "high",
+      "riskReason": "may warrant review because perpetual confidentiality obligations create indefinite ongoing compliance liability.",
+      "conflictsWith": [
+        "clause-1"
+      ]
+    },
+    {
+      "id": "clause-4",
+      "text": "This Agreement shall be governed by English Law and settled by binding arbitration in London, England, with the non-prevailing party paying 100% of legal costs.",
+      "category": "arbitration",
+      "plainLanguage": "Disputes must be arbitrated in London under English law, with the loser paying all legal fees.",
+      "riskLevel": "medium",
+      "riskReason": "may warrant review because foreign arbitration venue and loser-pays fee shifting can significantly increase dispute expenses.",
+      "conflictsWith": []
+    }
+  ],
+  "createdAt": "2026-09-19T18:56:22.924682+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "docId": "test-doc-missing-b",
+  "fileName": "doc_b.txt",
+  "filePath": null,
+  "mimeType": "application/pdf",
+  "rawText": "Payment shall be Net 60 days. All proprietary information shall be kept secret.",
+  "clauses": [
+    {
+      "id": "c3",
+      "text": "Payment shall be Net 60 days.",
+      "category": "payment",
+      "plainLanguage": "Pay within 60 days.",
+      "riskLevel": "low",
+      "riskReason": "",
+      "conflictsWith": []
+    },
+    {
+      "id": "c4",
+      "text": "All proprietary information shall be kept secret.",
+      "category": "confidentiality",
+      "plainLanguage": "Keep information confidential.",
+      "riskLevel": "low",
+      "riskReason": "",
+      "conflictsWith": []
+    }
+  ],
+  "createdAt": "2026-09-19T19:54:05.961393+00:00"
+}
