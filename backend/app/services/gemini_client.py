@@ -514,7 +514,18 @@ class GeminiClient:
             pass
 
         try:
-            import fitz  # PyMuPDF
+            import pypdf
+            import io
+            reader = pypdf.PdfReader(io.BytesIO(file_bytes))
+            pages = [page.extract_text() or "" for page in reader.pages]
+            full_text = "\n\n".join(pages).strip()
+            if full_text:
+                return full_text
+        except Exception:
+            pass
+
+        try:
+            import fitz  # PyMuPDF fallback
             doc = fitz.open(stream=file_bytes, filetype="pdf")
             pages = [page.get_text() for page in doc]
             full_text = "\n\n".join(pages).strip()
